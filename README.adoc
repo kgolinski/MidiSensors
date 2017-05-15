@@ -6,13 +6,13 @@ Super simple library for Teensy for making MIDI communication from analog or tou
 
 Configure Teensy USB Type to Serial+MIDI or MIDI
 
-Setup the MidiManager
+Setup the MidiManager  
 Parameters:
 
 - interval for sending the messages (in ms)
 - baudRate (-1 for no serial)
 
-Add the MidiSensors 
+Add the MidiSensors  
 Parameters:
 
 - type: ANALOG_SENSOR or TOUCH_SENSOR
@@ -29,7 +29,6 @@ or MidiSensor.loog(true) to get values on serial port
 == License ==
 
 Copyright (c) 2016 Krzysztof Goliński. All right reserved.
-Copyright (c) 2009 Michael Margolis.  All right reserved.
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
