@@ -1,5 +1,31 @@
 = MidiSensors Library for Teensy =
 
+Super simple library for Teensy for making MIDI communication from analog or touch pins as painless as possible.
+
+== Setup ==
+
+Configure Teensy USB Type to Serial+MIDI or MIDI
+
+Setup the MidiManager
+Parameters:
+
+- interval for sending the messages (in ms)
+- baudRate (-1 for no serial)
+
+Add the MidiSensors 
+Parameters:
+
+- type: ANALOG_SENSOR or TOUCH_SENSOR
+- pin: pin to read from (for example A2)
+- min: minimum value of the reading
+- max: maximum value of the reading
+- channel: midi channel
+- number: midi note number
+- threshold: threshold for noteOn/noteOff messages, -1 for ControlChange message
+
+run MidiSensor.loop() every frame
+or MidiSensor.loog(true) to get values on serial port
+
 == License ==
 
 Copyright (c) 2016 Krzysztof Goliński. All right reserved.
