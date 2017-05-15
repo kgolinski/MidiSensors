@@ -2,5 +2,6 @@ MidiSensor    KEYWORD1
 MidiManager   KEYWORD1
 getInfo       KEYWORD2
 readAndSend   KEYWORD2
+addSensor     KEYWORD2
 ANALOG_SENSOR LITERAL1
 TOUCH_SENSOR  LITERAL1
