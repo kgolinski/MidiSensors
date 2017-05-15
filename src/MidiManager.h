@@ -7,7 +7,7 @@
 #define MIDI_MANAGER_H
 
 #include "Arduino.h"
-#include "MidiSensor/MidiSensor.h"
+#include "MidiSensor.h"
 #include <vector>
 
 class MidiManager {
