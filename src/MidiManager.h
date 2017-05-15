@@ -13,7 +13,7 @@
 class MidiManager {
     public:
       MidiManager(int interval, int baudRate);
-      void loop(bool debug);
+      void loop(bool debug=false);
       void addSensor(MidiSensor sensor);
     private:
       int _interval;

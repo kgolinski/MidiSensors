@@ -12,9 +12,9 @@ void MidiManager::addSensor(MidiSensor sensor) {
 }
 void MidiManager::loop(bool debug){
   if (_msec >= 20) {
-    Serial.println("=================================");
     _msec = 0;
     if (debug) {
+      Serial.println("=================================");
       for (int i = 0; i < _count; i++) {
         Serial.println(_sensors[i].getInfo());
       }
